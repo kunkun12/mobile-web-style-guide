@@ -15,6 +15,7 @@
     html, body {
         -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
         user-select: none;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 ## viewport
 
@@ -55,19 +56,17 @@
 - gesturechange      //当两个手指接触屏幕后开始移动时触发
 - gestureend
  
-// 屏幕旋转事件  
-onorientationchange    
+
+- onorientationchange    // 屏幕旋转事件  
  
 // 检测触摸屏幕的手指何时改变方向      
-orientationchange      
+- orientationchange      
  
 // touch事件支持的相关属性
-touches        
-targetTouches      
-changedTouches             
-clientX　　　　// 相对视口的X坐标（不包括滚动）  
-clientY　　　　// 相对视口的Y坐标（不包括滚动） 
-screenX　　　 // 相对屏幕     
-screenY 　　  //  相对屏幕      
-pageX　　 　　// 相对文档
-pageY　　　　 // 相对文档   
+- touches        
+- targetTouches      
+- changedTouches             
+- clientX　clientY　　　// 相对视口的坐标（不包括滚动）  
+- screenX screenY 　　　 // 相对屏幕     
+- pageX pageY　 　　// 相对文档
+　　　
