@@ -1,1 +1,2 @@
-# mobile-web-style-guide
+# 移动Web开发规范
+整理网上的以及自己常用的移动开发规范。。
