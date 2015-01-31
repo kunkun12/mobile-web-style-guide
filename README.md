@@ -69,4 +69,11 @@
 - clientX　clientY　　　// 相对视口的坐标（不包括滚动）  
 - screenX screenY 　　　 // 相对屏幕     
 - pageX pageY　 　　// 相对文档
-　　　
+
+## 调试工具
+
+- [weinre](http://people.apache.org/~pmuellr/weinre/)
+- [jsconsole](http://jsconsole.com/)  [本地部署](https://github.com/remy/jsconsole)
+- 对于android4.0 的chrome 以及 4.4之后的webview可以采用 浏览器的远程调试 
+- [官方教程](https://developer.chrome.com/devtools/docs/remote-debugging) 
+
