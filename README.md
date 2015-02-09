@@ -17,6 +17,11 @@
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+    *,*:before,*:after{
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    
 ## viewport
 
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
