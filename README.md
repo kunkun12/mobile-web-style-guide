@@ -28,6 +28,12 @@
 ## viewport
 
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    
+       （Hybrid）   Android 4.4.x meta viewport 默认不起作用，需要创建webview的时候设置
+    
+            WebSettings settings = webView.getSettings();
+            settings.setLoadWithOverviewMode(true);
+            settings.setUseWideViewPort(true);
 
 其他meta 
 
@@ -82,6 +88,5 @@
 
 - [weinre](http://people.apache.org/~pmuellr/weinre/)
 - [jsconsole](http://jsconsole.com/)  [本地部署](https://github.com/remy/jsconsole)
-- 对于android4.0 的chrome 以及 4.4之后的webview可以采用 浏览器的远程调试 
-- [官方教程](https://developer.chrome.com/devtools/docs/remote-debugging) 
+- 对于android4.0 的chrome 以及 4.4之后的webview可以采用浏览器的远程调试[官方教程](https://developer.chrome.com/devtools/docs/remote-debugging) 
 
