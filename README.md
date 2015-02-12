@@ -6,7 +6,10 @@
     body {
         font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
     }
-
+     html ,body{
+     overflow-x: hidden; //如果页面可以拖动离开浏览器窗口，尝试试试这个
+     }
+     
 ## 基础交互
 
     a, img {
