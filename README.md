@@ -20,6 +20,9 @@
         user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
+    a,input,button {
+    outline:none // 按钮点击之后会有边框
+    }
     *,*:before,*:after{
         -webkit-box-sizing:border-box;
         box-sizing:border-box;
