@@ -91,5 +91,6 @@
 
 - [weinre](http://people.apache.org/~pmuellr/weinre/)
 - [jsconsole](http://jsconsole.com/)  [本地部署](https://github.com/remy/jsconsole)
+- [vorlon](http://vorlonjs.com/)
 - 对于android4.0 的chrome 以及 4.4之后的webview可以采用浏览器的远程调试[官方教程](https://developer.chrome.com/devtools/docs/remote-debugging) 
 
