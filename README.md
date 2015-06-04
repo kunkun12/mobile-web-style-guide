@@ -68,6 +68,11 @@
 - touchend             //当手指离开屏幕时触发
 - touchcancel
  
+IOS safari 浏览器下禁用页面拖动效果
+
+        document.body.addEventListener('touchstart', function (ev) { 
+                  ev.preventDefault();
+            });
 // 触摸事件
 - gesturestart          //当两个手指接触屏幕时触发
 - gesturechange      //当两个手指接触屏幕后开始移动时触发
