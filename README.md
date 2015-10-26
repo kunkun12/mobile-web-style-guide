@@ -7,7 +7,7 @@
         font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","STHeitiSC-Light","Microsoft YaHei","微软雅黑",Arial,sans-serif;
     }
      html ,body{
-     overflow-x: hidden; //如果页面可以拖动离开浏览器窗口，尝试试试这个
+     overflow-x: hidden; //如果页面可以左右拖动 可以试试这个隐藏横向溢出内容，禁止左右拖动
      }
      
 ## 基础交互
