@@ -99,3 +99,4 @@ IOS safari 浏览器下禁用页面拖动效果
 - [vorlon](http://vorlonjs.com/)
 - 对于android4.0 的chrome 以及 4.4之后的webview可以采用浏览器的远程调试[官方教程](https://developer.chrome.com/devtools/docs/remote-debugging) 
 
+[移动端webapp开发必备知识](https://www.qianduan.net/mobile-webapp-develop-essential-knowledge/)
